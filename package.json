@@ -1,0 +1,14 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including",
+  "scripts": {
+    "mint": "mintlify",
+    "dev": "mintlify dev"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "mintlify": "^4.0.114"
+  }
+}
