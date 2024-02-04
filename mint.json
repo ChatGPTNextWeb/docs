@@ -46,7 +46,10 @@
         {
           "group": "Selfhost",
           "pages": [
-            "quickstart/selfhost/vercel"
+            "quickstart/selfhost/vercel",
+            "quickstart/selfhost/zeabur",
+            "quickstart/selfhost/docker",
+            "quickstart/selfhost/env"
           ]
         },
         "development"
