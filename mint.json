@@ -43,7 +43,26 @@
       "pages": [
         "introduction",
         "quickstart/quickstart",
+        {
+          "group": "Selfhost",
+          "pages": [
+            "quickstart/selfhost/vercel"
+          ]
+        },
         "development"
+      ]
+    },
+    {
+      "group": "Model",
+      "pages": [
+        "models/intro",
+        {
+          "group": "Providers",
+          "pages": [
+            "models/openai",
+            "models/gemini"
+          ]
+        }
       ]
     }
   ],

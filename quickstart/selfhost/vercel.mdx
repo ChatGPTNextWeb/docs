@@ -1,0 +1,31 @@
+---
+title: "Deploy with Vercel"
+descrtiption: "Deploy your NextChat app with Vercel"
+---
+
+## Step1: Get your model provider access key
+
+Please follow the instructions in the [model provider](/models/intro) section to get your access key through the model provider dashboard.
+
+
+## Step2: Start your Vercel deployment
+
+Click to start deployment flow:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&env=GOOGLE_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
+
+## Step3: Add environment variables
+
+![set vercel env](/images/selfhost/vercel-env.png)
+
+
+In the deploy flow, follow the instructions in [Environment Variables](/quickstart/selfhost) to add the environment variables, here is a minimal example:
+
+| Key | Value | Description |
+| --- | --- | --- |
+| OPENAI_API_KEY | `your_openai_api_key` | OpenAI API key |
+
+
+## Step4: Deploy and enjoy
+
+After adding the environment variables, click the "Deploy" button to deploy your app. Once the deployment is done, you can visit the URL to see your app live.
