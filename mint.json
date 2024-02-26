@@ -63,7 +63,8 @@
           "group": "Providers",
           "pages": [
             "models/openai",
-            "models/gemini"
+            "models/gemini",
+            "models/ollama"
           ]
         }
       ]

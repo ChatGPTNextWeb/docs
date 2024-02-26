@@ -1,0 +1,34 @@
+---
+title: "Ollama"
+---
+
+
+## Intro
+
+**Setting Up Ollama for Seamless Integration with NextChat**
+
+**Introduction:**
+Ollama has gained popularity for its efficient model management capabilities and local execution. However, due to the current deployment constraints of Ollama and NextChat, some configurations are required to ensure the smooth utilization of Ollama's model services.
+
+<Note>For different system environments, refer to the configuration methods outlined at https://github.com/ollama/ollama/blob/main/docs/faq.md.</Note>
+
+<Steps>
+  <Step title="Configure Ollama CORS:">
+  - If you are accessing Ollama from the NextChat client, please add the following to your configuration: 
+      ```
+      OLLAMA_ORIGINS=tauri://localhost
+      ```
+  - If you are using OLLAMA from a non-local source, set the following configuration:
+      ```
+      OLLAMA_HOST="0.0.0.0"
+      ```
+      It's recommended to replace "0.0.0.0" with the specific domain or IP address you intend to use.
+  </Step>
+  <Step title="(optional)Configure HTTPS Certificate for Ollama API:">
+
+  - This step is necessary only if you are accessing the Ollama API over HTTP from a NextChat instance hosted on an HTTPS website.
+  </Step>
+  <Step title="Config Ollama API in NextChat: ">
+  </Step>
+</Steps>
+**Note:** Ensure that these configurations are set up before attempting to use Ollama's model services for a seamless experience.
