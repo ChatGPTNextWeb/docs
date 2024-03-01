@@ -64,7 +64,8 @@
           "pages": [
             "models/openai",
             "models/gemini",
-            "models/ollama"
+            "models/ollama",
+            "models/groq"
           ]
         }
       ]
